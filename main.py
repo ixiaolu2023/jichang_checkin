@@ -2,11 +2,11 @@ import requests, json, re, os
 
 session = requests.session()
 # 机场的地址
-url = os.environ.get('URL')
+url = os.environ.get('https://cylink.club')
 # 配置用户名（一般是邮箱）
-email = os.environ.get('EMAIL')
+email = os.environ.get('buhu88@163.com')
 # 配置用户名对应的密码 和上面的email对应上
-passwd = os.environ.get('PASSWD')
+passwd = os.environ.get('dage1234')
 # server酱
 SCKEY = os.environ.get('SCKEY')
 
